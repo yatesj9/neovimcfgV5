@@ -12,8 +12,8 @@ return {
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
+  -- { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
+  { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
-  { import = "astrocommunity.motion.nvim-surround"},
+  { import = "astrocommunity.motion.nvim-surround" },
 }
